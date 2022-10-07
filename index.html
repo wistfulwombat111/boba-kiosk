@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personas & Storyboarding</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>An interface analysis of the boba-ordering kiosk</h1>
+    <!-- Part 1: introduce the project and interface -->
+    <div class="info-div">
+      <h2>Introduction</h2>
+      <p class="caption">
+        In most bubble tea (boba) shops, customers order from a barista at the register. However, there was a new installation in the boba shop that I surveyed: a digital kiosk for placing orders. I decided to analyze this kiosk to determine its efficacy as a boba-ordering interface.
+      </p>
+
+      <img src="./assets/boba-kiosk-sketch.png" alt="A sketch of the digital boba-ordering kiosk"> 
+
+      <p class="caption">
+        A sketch of the main page of the boba-ordering kiosk. This interface is attempting to provide an alternative boba-ordering interface to customers of the boba shop, as an substitute option for ordering from a barista at the counter.
+        <br>
+        <u>Key interactive components</u>: the screen, and the card reader beneath. Tapping on any of the drinks opens a new page with customization options offered as checkboxes on the left, and an image of the drink and a button to add the drink to the user’s cart on the right. After one or more drinks is added to the cart, a “Checkout” button appears in the bottom right.
+      </p>
+    </div>
+
+    <!-- Part 2: observation/interviews, questions, and summarized answers -->
+    <div class="info-div">
+      <h2>Questions</h2>
+      <p class="caption">
+        I developed a set of five questions to ask customers who used the boba-ordering kiosk. I also interviewed a former barista of the boba shop, asking them a modified version of the same questions to get another perspective.
+      </p>
+      <ol>
+        <li class="question">What is your experience of ordering boba like usually? How did today’s boba-ordering experience compare to your usual experience?</li>
+        <li class="question">Have you ordered boba without using this interface before? How did using this interface shift your experience?</li>
+        <li class="question">Did you find anything surprising about using this interface?</li>
+        <li class="question">What are your top priorities when ordering boba? How did this interface help or hinder your priorities?</li>
+        <li class="question">Would you change anything about this interface, if you could? If so, what, and why?</li>
+      </ol>
+    </div>
+
+    <div class="info-div">
+      <h2>Summarized responses</h2>
+
+      <h3 class="question">1. What is your experience of ordering boba like usually? How did today’s boba-ordering experience compare to your usual experience?</h3>
+      <ul>
+        <li>Ordering boba can be anxiety-provoking: too many options, or fears of judgement from the barista or people in line; the kiosk reduces simplifies the options available and makes choices more private. It also allows users to change their minds and delete an item that they’ve already put in your cart, which would be immensely awkward if ordering from a barista.</li>
+        <li>Ordering on the kiosk also eliminates the concern over the barista potentially mishearing your order.</li>
+        <li>Using the kiosk results in less social interaction with the barista (for better or for worse).</li>
+        <li>Print/wall menus usually are very text-heavy with only a few pictures; the digital menu includes pictures of all the drinks, which makes the drinks look more appetizing, gives the user an idea of what to expect with each drink, and makes it easier to browse for users who don’t know what they want.</li>
+        <li>One user interviewed usually orders online through Snackpass. They noted that the in-person kiosk uses the same interface as the Snackpass app — thus, the kiosk takes advantage of users’ prior familiarity in order to make the ordering process intuitive.</li>
+      </ul>
+
+      <h3 class="question">2. Have you ordered boba without using this interface before? How did using this interface shift your experience?</h3>
+      <ul>
+        <li>Ordering without talking to the barista makes the ordering process more efficient, but reduces users’ ability to ask questions about possible customizations.</li>
+        <li>For the user who usually orders on Snackpass, using the in-person interface reduced the wait time between placing the order and getting the boba — closer to instant gratification.</li>
+        <li>The former barista noted that taking orders through the kiosk decreases wait times and makes handling periods of high traffic easier, as the kiosk allows baristas to spend more time making the drinks rather than taking orders at the register.</li>
+      </ul>
+
+      <h3 class="question">3. Did you find anything surprising about using this interface?</h3>
+      <ul>
+        <li>Two users weren’t expecting the interface to ask for their phone numbers, and were frustrated that there was no option to skip that screen; in contrast, the user who typically ordered online approved of this feature because they could get a text update when their order was ready, even if they had to briefly leave the shop.</li>
+        <li>Users were surprised that the interface offered different customization options between the different drinks: some but not all drinks allowed users to customize drink size, ice level, sugar level, etc.</li>
+        <li>Users were surprised that the interface was just Snackpass on a screen, rather than being more customized to sell boba, or branded to the specific boba store.</li>
+      </ul>
+
+      <h3 class="question">4. What are your top priorities when ordering boba? How did this interface help or hinder your priorities?</h3>
+      <ul>
+        <li><u>Be quick and get the job done, minimize anxiety of the interaction</u>: this interface made ordering more streamlined and more private.</li>
+        <li><u>Try new things and figure out what I like</u>: the pictures on the digital menu make it easier to browse and see what looks interesting, as well as providing a visual reminder of which drinks the user has tried before.</li>
+        <li><u>What I order is what I get</u>: the pictures on the menu help ensure that users know what to expect when they order.</li>
+        <li><u>Be able to customize my drink</u>: the interface limited the amount of customization that could be done with certain drinks, with no clear reasoning for why those limitations were imposed on one drink and not another — several users wanted to order large-sized drinks but the interface did not offer size customization options (resulting in delivering a medium-sized drink).</li>
+        <li><u>Minimize expense</u>: the interface clearly lists the price for each drink and add-on.</li>
+      </ul>
+
+      <h3 class="question">5. Would you change anything about this interface, if you could? If so, what, and why?</h3>
+      <ul>
+        <li>Users wanted the interface to include detailed descriptions of the ingredients, flavors, and contents of each drink — if it wasn’t obvious from the name, then it was very difficult to predict what a drink will taste like. <i>For example: “Drifting in Dreams”</i></li>
+        <li>At most boba places, customers select a flavor, a drink size, then the ice and sugar levels, any add-ons, etc., with the ordering process structured in distinct phases. The kiosk’s interface used a different mental model, where users select a product, modify it based on limited options presented, and add it to a cart. A phased model of constructing a drink would better align with the users’ pre-established expectations of the boba-ordering process.</li>
+        <li>It was strange that there was no option to edit a drink after adding it to the cart — you hade to make a new order of the same drink, with the edited customization selections, and then delete the incorrect drink from your cart.</li>
+      </ul>
+    </div>
+
+
+    <!-- Part 3: two personas -->
+    <div class="info-div">
+      <h2>Personas</h2>
+
+      <p class="caption">
+        I constructed two personas based on my observations and the user interviews:
+      </p>
+
+      <table>
+        <tr>
+          <th id="boba-explorer" colspan="2">
+            <h4 class="persona-name">Boba Explorer</h5>
+            <p class="caption">
+              A user who always wants to try something new. They may feel frustrated by the confusing limitations on which drinks can be customized in which ways, and may want to go back and edit their drinks after adding them to the cart. A subset of veteran boba-drinkers are boba explorers, though others prefer to stick with their tried-and-true orders.
+            </p>
+          </th>
+        </tr>
+        <tr>
+          <td class="thinks-box">
+            <h4>Thinks</h4>
+            <ul>
+              <li>That drink looks pretty!</li>
+              <li>What did I order last time I was here?</li>
+              <li>Are there any special seasonal flavors?</li>
+              <li>It’s annoying that you can’t edit your drinks after you add them to the cart.</li>
+            </ul>
+          </td>
+          <td class="feels-box">
+            <h4 class="align-right">Feels</h4>
+            <ul>
+              <li>Excited by all the options</li>
+              <li>Looking forward to trying something new</li>
+              <li>Wants to fully customize their drink</li>
+              <li>Can’t wait to get a delicious drink</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="says-box">
+            <h4>Says</h4>
+            <ul>
+              <li>“What’s in it? I know it says it’s caffeine free, but it doesn’t tell you what’s in it.”</li>
+              <li>“Can I get this with a different flavor of boba?”</li>
+              <li>“Have you tried this flavor before?”</li>
+            </ul>
+          </td>
+          <td class="does-box">
+            <h4 class="align-right">Does</h4>
+            <ul>
+              <li>Scrolls through the menu several times</li>
+              <li>Clicks on several drinks without ordering them</li>
+              <li>Makes a selection on all the customization options</li>
+              <li>Tweaks a drink order after putting it in their cart</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th id="anxious-orderer" colspan="2">
+            <h4 class="persona-name">Anxious Orderer</h5>
+            <p class="caption">
+              A user who wants to get in and out without a fuss. They may feel overwhelmed by the number of options, confused by the interface organization, and may get confused by the disconnect between the usual phased model of boba ordering and this interface’s slightly-different mental model. Many users that I interviewed seemed interested in getting their boba quickly without errors and without talking to the baristas, and several of them touched on feeling social anxiety about the order process.
+            </p>
+          </th>
+        </tr>
+        <tr>
+          <td class="thinks-box">
+            <h4>Thinks</h4>
+            <ul>
+              <li>I hope I don’t have to talk to the barista.</li>
+              <li>I’ll just order my usual, no need to get fancy.</li>
+              <li>At least I don’t have to think about too many options.</li>
+              <li>If I mess this up, people will be watching me fail.</li>
+            </ul>
+          </td>
+          <td class="feels-box">
+            <h4 class="align-right">Feels</h4>
+            <ul>
+              <li>Judged and pressured by everyone in line</li>
+              <li>Overwhelmed by all of the drink flavors available</li>
+              <li>Mostly here as a social activity, with friends rather than for the boba itself</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="says-box">
+            <h4>Says</h4>
+            <ul>
+              <li>“What are you having? I’ll just have that.”</li>
+              <li>“I’m not picky.”</li>
+              <li>“Am I done? I think I’m done.”</li>
+            </ul>
+          </td>
+          <td class="does-box">
+            <h4 class="align-right">Does</h4>
+            <ul>
+              <li>Orders fast, with minimal browsing</li>
+              <li>Orders the first drink they tap on</li>
+              <li>Places the order, even if they make a mistake or don’t find the customization options they want</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <!-- Part 4: storyboard -->
+    <div class="info-div">
+      <h2>Storyboard</h2>
+      <p class="caption">
+        A storyboard depicting Boba Explorer’s experience of using the kiosk.
+      </p>
+
+      <img src="./assets/storyboard.png" alt="A storyboard of Boba Explorer placing an order on the boba-ordering kiosk"> 
+    </div>
+
+  </body>
+
+</html>

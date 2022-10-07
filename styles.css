@@ -1,0 +1,106 @@
+body {
+  font-family: serif;
+  font-size: 13pt;
+  background-color: cornsilk;
+}
+
+h1, h2, h3, h4 {
+  font-family: Palatino, cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 5vh;
+}
+
+h2 {
+  /*font-style: italic;*/
+  text-decoration: underline;
+  font-size: 18pt;
+  margin: 0 0 2vh 0;
+}
+
+/*h3 {
+  font-style: bold;
+  font-family: Optima, sans-serif;
+  font-size: 13pt;
+}*/
+
+h4 {
+  margin: 1vh 10%;
+  font-style: normal;
+}
+
+.info-div {
+  width:60%;
+  margin: 5vh auto;
+  padding: 2vw;
+  border-radius: 2vw;
+  background-color: powderblue;
+}
+
+p {
+  margin: 0;
+}
+
+.caption {
+  font-style: italic;
+}
+
+img {
+  width: 80%;
+  margin: 2vh 10%;
+}
+
+.question {
+  font-style: normal;
+  margin-top:2vh;
+  font-size: 14pt;
+  font-family: Optima, sans-serif;
+}
+
+li {
+  margin-top: 1vh;
+  margin-left: -1vw;
+
+}
+
+
+table {
+  margin: 3vh auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: solid black 2px;
+  padding: 2%;
+}
+
+th {
+  font-weight: normal;
+}
+
+.persona-name {
+  font-size: 14pt;
+  font-family: Apple Chancery, cursive;
+}
+
+td {
+  /*margin: 0;*/
+  width: 50%;
+  font-style: italic;
+}
+
+#boba-explorer {
+  background-color: mediumseagreen;
+}
+
+#anxious-orderer {
+  background-color: lightcoral;
+}
+
+.align-right {
+  text-align: right;
+}
